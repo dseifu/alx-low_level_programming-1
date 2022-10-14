@@ -22,13 +22,13 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%d Last digit of ", n);
+		printf("Last digit of %d ", n);
 		printf("is %d", lastdigit );
 		printf(" and is 0\n");
 	}
 	if (n != 0 && n < 6)
 	{
-		printf("%d Last digit of ", n);
+		printf("Last digit of %d ", n);
 		printf("is %d", lastdigit );
 		printf(" and is less than 6 and not 0\n");
 	}
