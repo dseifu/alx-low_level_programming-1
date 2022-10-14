@@ -17,19 +17,19 @@ int main(void)
 	if (n > 5)
 	{
 		printf("Last digit of %d ", n);
-		printf("is %d", lastdigit );
+		printf("is %d", lastdigit);
 		printf(" and is greater than 5\n");
 	}
 	if (n == 0)
 	{
 		printf("Last digit of %d ", n);
-		printf("is %d", lastdigit );
+		printf("is %d", lastdigit);
 		printf(" and is 0\n");
 	}
 	if (n != 0 && n < 6)
 	{
 		printf("Last digit of %d ", n);
-		printf("is %d", lastdigit );
+		printf("is %d", lastdigit);
 		printf(" and is less than 6 and not 0\n");
 	}
 		return (0);
