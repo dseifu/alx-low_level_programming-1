@@ -19,10 +19,8 @@ int main(void)
 			putchar((x2 / 10) + '0');
 			putchar((x2 % 10) + '0');
 
-	               if (x1 == 98 && x2 == 99)
-		 {
+			if (x1 == 98 && x2 == 99)
 			continue;
-	         }		 
 			putchar(',');
 			putchar(' ');
 
