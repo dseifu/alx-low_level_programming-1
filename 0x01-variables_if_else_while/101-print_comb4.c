@@ -18,7 +18,7 @@ int main(void)
 				putchar((n2 % 10) + '0');
 				putchar((n3 % 10) + '0');
 
-				if (n1 == 8 && n2 == 9)
+				if (n1 == 8 && n2 == 9 (&& n3 == 10)
 					continue;
 
 				putchar(',');
