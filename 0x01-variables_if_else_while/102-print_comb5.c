@@ -21,7 +21,7 @@ int main(void)
 
 	               if (x1 == 98 && x2 == 99)
 		 {
-			 continue;
+			continue;
 	         }		 
 			putchar(',');
 			putchar(' ');
